@@ -13,8 +13,8 @@
 	$consulta = "SELECT * FROM usuarios
 	WHERE id "
 
-	    while($usuario=$resultados->fetch_object())
-	        $usuarios[]=$usuario;
+	    while  ($usuario=$resultados->fetch_object())
+	        $usuarios[]=$usuario, $mime;
 
 	$resultados->free(); //libera memoria
 
