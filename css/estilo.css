@@ -1,0 +1,57 @@
+a{
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+table{
+	margin: auto;
+	width: 90%;
+}
+
+table tr td:last-of-type{
+	text-align: center;
+	font-size: 0.75em;
+}
+
+form label{
+	display: inline-block;
+	min-width: 120px;
+	margin: 10px;
+}
+
+form textarea{
+	resize: none;
+	width: 70%;
+	height: 120px;
+	vertical-align: text-top;
+}
+
+form input[type="submit"]{
+	display: block;
+	margin: 20px auto;
+}
+
+html{
+	background-color: beige;
+}
+
+body{
+	background-color: white;
+	width: 80%;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav ul li{
+	flex:1 ;
+	padding: 5px;
+}
