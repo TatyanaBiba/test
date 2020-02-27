@@ -39,7 +39,7 @@
 			</ul>
 		</nav>
 
-		<h2>Lista de ciudades</h2>
+		<h2>Lista de ciudades del mundo</h2>
 		
 		<table border="1">
 			<tr>
